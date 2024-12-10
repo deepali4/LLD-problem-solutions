@@ -1,0 +1,34 @@
+
+public class chess
+    Board board
+    Player player1
+    Player2 player2
+    enum Status GameStatus
+    boolean is WhiteTern
+    start() -- to start the game
+    makeMove()
+
+
+public class Board
+     block[][] board;
+     initialize()
+     reset()
+
+
+public class block
+    int x ;
+    int y;
+    Piece piece; // -- current piece on the block
+
+Abstract class Piece
+      boolean iswhite
+      canMove(board board ,bock startblock , block endBlock) //-- validation method
+
+// -- class for all the pieces
+public class king extend piece
+        isWhite
+        canMove(board board ,bock startblock , block endBlock)
+
+//  public class move
+           Block startblock
+           Block endBlock
