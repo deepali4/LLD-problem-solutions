@@ -1,0 +1,16 @@
+class board
+     public char[][]board;
+     addpiece()
+     getFreeCells();
+
+
+class player
+    -name
+    -symbol
+
+class Tick-tack-toe
+    -Board
+    -Player1
+    -player2
+    -Status
+
